@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YYDRobotVoiceBattery</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- 请替换成在语音云官网申请的appid -->
+    <string name="app_id">56065ce8</string>
+    <string name="dyc_poweroff">关机</string>
+    <string name="dyc_reboot">重启</string>
+    <string name="dyc_lowbattery">主人，请给我充电</string>
+    <string name="dyc_querystart">主人，我还有百分之</string>
+    <string name="dyc_queryend">的电量。</string>
+    <string name="dyc_sound_up">up</string>
+    <string name="dyc_sound_down">down</string>
+    <string name="dyc_sound_max">max</string>
+    <string name="dyc_sound_min">min</string>
+
+
+    <string-array name="tips_power_off">
+        <item>您确定要关机吗？</item>
+    </string-array>
+
+    <string-array name="tips_reboot">
+        <item>您确定要重启吗？</item>
+    </string-array>
+
+
+    <string-array name="dyc_poweroff_greet">
+        <item>拜拜，主人，你不要太想我哦</item>
+        <item>拜拜，千万不要太想我</item>
+        <item>耶，我赶紧去歇一会儿</item>
+        <item>不要离开太久哦主人，我会想你的</item>
+        <item>好吧，人家会想你的</item>
+        <item>我挥一挥衣袖，不带走一片云彩，再见主人</item>
+        <item>我静悄悄的走，正如我静悄悄的来，主人拜拜</item>
+        <item>我去睡个懒觉先，主人再见</item>
+        <item>主人，我不想离开你啊</item>
+        <item>我睡觉了你会寂寞的，主人</item>
+        <item>你根本不懂我现在的感受，好舍不得你啊主人</item>
+        <item>嗷嗷嗷，主人，不要离开人家，不要嘛</item>
+        <item>主人，我要关机了，我真的要关机了</item>
+	<item>哔哔哔，动感超人，变身，关机</item>
+        <item>再见主人，我会想你的</item>
+        <item>拜拜</item>
+        <item>好的，下次再见</item>
+    </string-array>
+
+    <string-array name="dyc_reboot_greet">
+        <item>正在重启，马上回来</item>
+        <item>正在重启，马上就好</item>
+    </string-array>
+
+    <string name="dyc_response_max">现在的我再也不是矜持的我了！我要变成大嗓门了！</string>
+    <string name="dyc_response_min">主人，这么小声你是有什么秘密要告诉我吗？</string>
+    <string name="dyc_response_up">我声音大不？</string>
+    <string name="dyc_response_down">主人，您看我这样婶儿的语气您还满意不？</string>
+    <string name="dyc_sound_two">两格</string>
+    <string name="dyc_sound_three">三格</string>
+    <string name="dyc_sound_four">四格</string>
+    <string name="dyc_sound_five">五格</string>
+    <string name="dyc_up_max">好的，音量调到最大</string>
+    <string name="dyc_up">好的，音量增大</string>
+    <string name="dyc_scale">格</string>
+
+    <string name="dyc_up_min">好的，音量调到最小</string>
+    <string name="dyc_down">好的，音量减小</string>
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="shutdown">关机</string>
+    <string name="understand">语义理解</string>
+    <string name="low_battery_warn">电量过低，请插入充电器  %1$d 秒后关机</string>
+    <string name="timeover">您设置的时间已过时</string>
+    <string name="cancel_shutdown">已取消关机</string>
+    <string name="max_shutdown">暂时只支持一百二十分钟以内的关机时间</string>
+
+    <!-- 低电量 -->
+        <array name="low_power">
+            <item>小帅跪求充电</item>
+            <item>电量不多了哦</item>
+            <item>小帅能量不足，请求补给</item>
+        </array>
+
+        <!-- 充上电 -->
+        <array name="connect">
+            <item>现在开始补给能量，请稍候</item>
+            <item>谢谢主人帮我充电</item>
+            <item>充上电，小帅就放心了</item>
+        </array>
+
+        <!-- 充电打断 -->
+        <array name="disconnect">
+        </array>
+
+        <!-- 充满 -->
+        <array name="full">
+            <item>小帅能量满格了</item>
+            <item>主人 充电已完成</item>
+            <item>充电完成，我感觉浑身充满了力量</item>
+        </array>
+
+    <string name="tips_shutdown">是否关机？</string>
+    <string name="tips_reboot">是否重启？</string>
+
+    <string name="tips_electricity">电量低于%s，请及时充电！</string>
+
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	>
+
+	<RelativeLayout
+		android:id="@+id/content_llt"
+		android:layout_width="371dp"
+		android:layout_height="285.5dp"
+		android:background="@drawable/bg_input"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true">
+
+		<TextView
+			android:id="@+id/tips"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:gravity="center"
+			android:text="@string/tips_shutdown"
+			android:textSize="26dp"
+			android:textColor="@color/text_warn" />
+
+	</RelativeLayout>
+
+	
+    <!-- 按钮 -->
+	<LinearLayout
+		android:layout_width="310dp"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/content_llt"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="-23dp"
+		android:gravity="center_vertical"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/cancel"
+			android:layout_width="144dp"
+			android:layout_height="39.5dp"
+			android:background="@drawable/bg_cancel" />
+
+		<View
+			android:layout_width="18dp"
+			android:layout_height="1dp"
+			/>
+
+		<Button
+			android:id="@+id/confirm"
+			android:layout_width="146dp"
+			android:layout_height="39.5dp"
+			android:background="@drawable/bg_confirm" />
+	</LinearLayout>
+</RelativeLayout>

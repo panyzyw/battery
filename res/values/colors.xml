@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_item_press">#459EDA</color>
+    <color name="bg_item_normal">#EFEFEF</color>
+
+    <color name="text_warn">#f9d812</color>
+    <color name="text_error">#ff1d1d</color>
+    <color name="text_white">#ffffff</color>
+
+
+</resources>
